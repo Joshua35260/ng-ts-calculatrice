@@ -1,13 +1,8 @@
 <h2>Calculatrice</h2>
 
 <p>
-  <button (click)="random1()">Générer un nombre</button>
+  <button (click)="random1()">Générate: </button>
   <span>{{ number1 }}</span>
-</p>
-
-<p>
-  <button (click)="random2()">Générer un nombre</button>
-  <span>{{ number2 }}</span>
 </p>
 
 <p>
@@ -17,6 +12,12 @@
   <button (click)="insertDivide()">/</button>
   <span>{{ operator }}</span>
 </p>
+
+<p>
+  <button (click)="random2()">Générate: </button>
+  <span>{{ number2 }}</span>
+</p>
+
 
 <p>
   <button (click)="calculateResult()">Calculer</button>
